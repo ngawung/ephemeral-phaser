@@ -1,0 +1,27 @@
+{
+  "name": "my-phaser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.development.js",
+    "build": "webpack --config webpack/webpack.production.js"
+  },
+  "author": "Ferdian",
+  "license": "MIT",
+  "dependencies": {
+    "eruda": "^1.10.3",
+    "phaser": "^3.20.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-merge": "^4.2.2",
+    "webpack": "^4.41.2"
+  }
+}
